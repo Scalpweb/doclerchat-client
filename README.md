@@ -17,7 +17,7 @@ First, you need to install node and yarn on your machine.
 
 Then, you should also have the **DoclerChat Socket Server** running.
 
-- DoclerChat SocketServer: (Get fron GitHub)(https://github.com/Scalpweb/doclerchat-server)
+- DoclerChat SocketServer: [Get from GitHub](https://github.com/Scalpweb/doclerchat-server)
 
 Finally, you open a terminal window, and run the following command to start the **DoclerChat FrontEnd**:
 
