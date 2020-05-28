@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderBar renders buttons 1`] = `
+<div>
+  <div>
+    Docler Chat
+  </div>
+  <div
+    className="pull-left"
+  >
+    <IconButton
+      counter={0}
+      icon="chat"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="pull-right"
+  >
+    <IconButton
+      icon="settings"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`HeaderBar renders unread counter 1`] = `
+<div>
+  <div>
+    Docler Chat
+  </div>
+  <div
+    className="pull-left"
+  >
+    <IconButton
+      counter={1}
+      icon="chat"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`HeaderBar renders unread counter 2`] = `
+<div>
+  <div>
+    Docler Chat
+  </div>
+  <div
+    className="pull-left"
+  >
+    <IconButton
+      counter={0}
+      icon="chat"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`HeaderBar renders without button 1`] = `
+<div>
+  <div>
+    Docler Chat
+  </div>
+</div>
+`;

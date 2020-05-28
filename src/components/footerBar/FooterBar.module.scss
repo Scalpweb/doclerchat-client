@@ -1,0 +1,37 @@
+@import '../../assets/styles/variables.scss';
+
+.footerBar {
+  color: $darkText;
+  position: relative;
+  height: $footerInnerHeight;
+  line-height: $footerInnerHeight;
+  border-top: 1px solid $gray;
+  padding: 0 0 $halfPadding 0;
+  text-align: center;
+
+  textarea {
+    border: none;
+    height: $footerInnerHeight;
+    width: calc(100% - 88px);
+    text-align: left;
+    resize: none;
+  }
+
+  :global {
+    .pull-right,
+    .pull-left {
+      padding-top: $smallPadding;
+    }
+  }
+}
+
+:global(.theme-dark) {
+  .footerBar {
+    border-top: 1px solid $darkgray;
+
+    textarea {
+      color: $lightText;
+      background: $dark;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+  height: calc(100% - #{$headerHeight} - #{$footerHeight});
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 0 $defaultPadding $defaultPadding;
+
+  .form {
+    width: 100%;
+    max-width: 400px;
+    margin: $defaultPadding auto;
+  }
+
+  .field {
+    clear: both;
+
+    label {
+      padding: 0 $defaultPadding;
+      display: block;
+      background: $gray;
+      line-height: 30px;
+      height: 30px;
+    }
+
+    input[type='text'],
+    select {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-radius: 0;
+      border: 1px solid $gray;
+      line-height: 30px;
+      height: 30px;
+      padding: 0 $defaultPadding;
+    }
+
+    .radio {
+      width: 50%;
+      float: left;
+      line-height: 30px;
+      height: 30px;
+    }
+
+    button {
+      margin-top: 30px;
+      width: 100%;
+      height: 30px;
+    }
+  }
+}
+
+:global(.theme-dark) {
+  .container {
+    color: $lightText;
+    .field {
+      label {
+        background: $darkgray;
+        color: $lightText;
+      }
+
+      input[type='text'],
+      select {
+        border: 1px solid $darkgray;
+        background: $dark;
+        color: $lightText;
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsBoards update storage 1`] = `
+<SettingsBoard
+  settings={
+    Object {
+      "clockDisplay": "12",
+      "enableControlEnter": "off",
+      "interfaceColor": "light",
+      "language": "en",
+      "username": "John Doe",
+    }
+  }
+>
+  <div>
+    <div>
+      <div>
+        <label>
+          Username
+        </label>
+        <input
+          name="username"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value="John Doe"
+        />
+      </div>
+      <div>
+        <label>
+          Interface color
+        </label>
+        <div>
+          <input
+            checked={true}
+            name="interfaceColor"
+            onChange={[Function]}
+            type="radio"
+            value="light"
+          />
+           
+          Light
+        </div>
+        <div>
+          <input
+            checked={false}
+            name="interfaceColor"
+            onChange={[Function]}
+            type="radio"
+            value="dark"
+          />
+           
+          Dark
+        </div>
+      </div>
+      <div>
+        <label>
+          Clock display
+        </label>
+        <div>
+          <input
+            checked={true}
+            name="clockDisplay"
+            onChange={[Function]}
+            type="radio"
+            value="12"
+          />
+           
+          12
+        </div>
+        <div>
+          <input
+            checked={false}
+            name="clockDisplay"
+            onChange={[Function]}
+            type="radio"
+            value="24"
+          />
+           
+          24
+        </div>
+      </div>
+      <div>
+        <label>
+          Send message on Ctrl+Enter
+        </label>
+        <div>
+          <input
+            checked={false}
+            name="enableControlEnter"
+            onChange={[Function]}
+            type="radio"
+            value="on"
+          />
+           
+          On
+        </div>
+        <div>
+          <input
+            checked={true}
+            name="enableControlEnter"
+            onChange={[Function]}
+            type="radio"
+            value="off"
+          />
+           
+          Off
+        </div>
+      </div>
+      <div>
+        <label>
+          Language
+        </label>
+        <select
+          name="language"
+          onChange={[Function]}
+          value="en"
+        >
+          <option
+            value="fr"
+          >
+            Français
+          </option>
+          <option
+            value="en"
+          >
+            English
+          </option>
+        </select>
+      </div>
+      <div>
+        <button
+          onClick={[Function]}
+        >
+          Reset Defaults
+        </button>
+      </div>
+    </div>
+  </div>
+</SettingsBoard>
+`;

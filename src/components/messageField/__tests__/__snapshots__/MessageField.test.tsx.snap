@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageField clears textarea when sending message 1`] = `
+<MessageField>
+  <textarea
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    value="foobarbaz"
+  />
+  <div
+    className="pull-left"
+  >
+    <IconButton
+      icon="insert_emoticon"
+      onClick={[Function]}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons"
+        >
+          insert_emoticon
+        </span>
+      </a>
+    </IconButton>
+  </div>
+  <div
+    className="pull-right"
+  >
+    <IconButton
+      icon="send"
+      onClick={[Function]}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons"
+        >
+          send
+        </span>
+      </a>
+    </IconButton>
+  </div>
+</MessageField>
+`;
+
+exports[`MessageField clears textarea when sending message 2`] = `
+<MessageField>
+  <textarea
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    value=""
+  />
+  <div
+    className="pull-left"
+  >
+    <IconButton
+      icon="insert_emoticon"
+      onClick={[Function]}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons"
+        >
+          insert_emoticon
+        </span>
+      </a>
+    </IconButton>
+  </div>
+  <div
+    className="pull-right"
+  >
+    <IconButton
+      icon="send"
+      onClick={[Function]}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons"
+        >
+          send
+        </span>
+      </a>
+    </IconButton>
+  </div>
+</MessageField>
+`;
+
+exports[`MessageField renders emoji selector 1`] = `
+<MessageField>
+  <textarea
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    value=""
+  />
+  <div
+    className="pull-left"
+  >
+    <IconButton
+      icon="insert_emoticon"
+      onClick={[Function]}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons"
+        >
+          insert_emoticon
+        </span>
+      </a>
+    </IconButton>
+  </div>
+  <div
+    className="pull-right"
+  >
+    <IconButton
+      icon="send"
+      onClick={[Function]}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons"
+        >
+          send
+        </span>
+      </a>
+    </IconButton>
+  </div>
+</MessageField>
+`;
+
+exports[`MessageField renders emoji selector 2`] = `
+<MessageField>
+  <default
+    onEmojiClick={[Function]}
+  >
+    <div />
+  </default>
+  <textarea
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    value=""
+  />
+  <div
+    className="pull-left"
+  >
+    <IconButton
+      icon="insert_emoticon"
+      onClick={[Function]}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons"
+        >
+          insert_emoticon
+        </span>
+      </a>
+    </IconButton>
+  </div>
+  <div
+    className="pull-right"
+  >
+    <IconButton
+      icon="send"
+      onClick={[Function]}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="material-icons"
+        >
+          send
+        </span>
+      </a>
+    </IconButton>
+  </div>
+</MessageField>
+`;

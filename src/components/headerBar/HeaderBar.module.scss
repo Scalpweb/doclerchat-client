@@ -1,0 +1,26 @@
+@import '../../assets/styles/variables.scss';
+
+.headerBar {
+  color: $darkText;
+  position: relative;
+  height: $headerInnerHeight;
+  line-height: $headerInnerHeight;
+  border-bottom: 1px solid $gray;
+  padding: $smallPadding $halfPadding;
+}
+
+.title {
+  position: absolute;
+  left: calc(#{$headerInnerHeight} - 2px);
+  top: 0;
+  text-align: center;
+  width: calc(100% - #{$headerInnerHeight} * 2 - 4px);
+  font-weight: 700;
+}
+
+:global(.theme-dark) {
+  .headerBar {
+    color: $lightText;
+    border-bottom: 1px solid $darkgray;
+  }
+}

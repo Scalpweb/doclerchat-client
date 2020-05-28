@@ -1,0 +1,8 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+  height: calc(100% - #{$headerHeight} - #{$footerHeight});
+  box-sizing: border-box;
+  overflow: auto;
+  padding: $defaultPadding;
+}

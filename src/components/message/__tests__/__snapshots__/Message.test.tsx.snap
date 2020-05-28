@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message renders with clock 12 1`] = `
+<div>
+  <div>
+    foo
+    ,
+     
+    01:00 AM
+  </div>
+  <div>
+    <span
+      key="line-0"
+    >
+      <span>
+        <Emoji
+          key="bar"
+          text="bar"
+        />
+      </span>
+      <br />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Message renders with clock 24 1`] = `
+<div>
+  <div>
+    foo
+    ,
+     
+    01:00
+  </div>
+  <div>
+    <span
+      key="line-0"
+    >
+      <span>
+        <Emoji
+          key="bar"
+          text="bar"
+        />
+      </span>
+      <br />
+    </span>
+  </div>
+</div>
+`;

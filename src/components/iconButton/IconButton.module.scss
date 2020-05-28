@@ -1,0 +1,49 @@
+@import '../../assets/styles/variables.scss';
+
+a.iconButton {
+  position: relative;
+  color: $darkText;
+  background: $gray;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: block;
+  line-height: 36px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+a.iconButton:hover {
+  background: $highlightedGray;
+}
+
+.counter {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  background: red;
+  font-size: 10px;
+  border-radius: 7px;
+  min-width: 14px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: white;
+
+  em {
+    padding: 0 4px;
+    font-style: normal;
+  }
+}
+
+:global(.theme-dark) {
+  a.iconButton {
+    color: $lightText;
+    background: $darkgray;
+  }
+
+  a.iconButton:hover {
+    background: $dark;
+  }
+}
